@@ -8,8 +8,6 @@ while (a <= 3 ):
     print("********* ATM OPERATIONS **********")
     print("enter your pin number.")
     entered = int(input())
-    print("Enter your name.")
-    enter = input()
     query = 'SELECT * FROM logindetails'
     cur.execute(query)
     rez = cur.fetchall()
